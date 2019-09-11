@@ -1,0 +1,19 @@
+.bg-primary{
+  background-color:$primary!important;
+}
+
+.text-primary{
+  color:$primary!important;
+  border:none!important;
+  border-style:none!important;
+  border-width:0!important;
+}
+
+a{
+  color:$primary;
+  &:hover,
+  &:focus,
+  &:active{
+    color:darken($primary,15%);
+  }
+}

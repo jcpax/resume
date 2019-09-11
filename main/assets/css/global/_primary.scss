@@ -1,0 +1,20 @@
+$white:       #fff !default;
+$black:       #000 !default;
+$teal:       #00ac99 !default;
+$gray_dark:       #343a40 !default;
+$gray_med:       #788087 !default;
+$gray_light:       #dee2e6 !default;
+$red:       #fb4f45 !default;
+
+$primary:       $teal !default;
+$secondary:     $gray_med !default;
+$success:       $red !default;
+$info:          $teal !default;
+$warning:       $red !default;
+$danger:        $red !default;
+$light:         $gray_light !default;
+$dark:          $gray_dark !default;
+
+// Page Variables
+
+$sidebar-base-width: 17rem;

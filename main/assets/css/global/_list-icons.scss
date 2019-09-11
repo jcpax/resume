@@ -1,0 +1,45 @@
+.list-social-icons a {
+  color: #00ac99;
+}
+.list-social-icons a:hover {
+  color: #fb4f45;
+}
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem;
+}
+.list-icons {
+  font-size: 3rem;
+}
+.list-icons .list-inline-item i:hover {
+  color: #4dada6;
+}
+.iconGrid{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+#skillCircle{
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+.list-group {
+  border: none;
+}
+.list-group-item {
+  border: none;
+}
+.fa-circle-o{
+  vertical-align: middle;
+  font-size: 1rem;
+  padding-bottom: 8px;
+}
+.back{
+  font-size:40px;
+  color: white;
+  margin-bottom: 20px;
+  padding-left:10px;
+}

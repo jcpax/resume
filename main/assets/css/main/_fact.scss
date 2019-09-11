@@ -1,0 +1,17 @@
+.fact{
+  width: 45%;
+  background-color: #00ac99;
+  color: white;
+  padding:20px;
+  margin-top: 50px;
+}
+.fact h6{
+  color: white;
+}
+ .zigzag {
+  background: linear-gradient(-135deg, #00ac99 5px, transparent 0) 0 5px, linear-gradient(135deg, #00ac99 5px, #fff 0) 0 5px;
+  background-color: $teal;
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  background-size: 10px 10px;
+}

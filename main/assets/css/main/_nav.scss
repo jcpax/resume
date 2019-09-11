@@ -1,0 +1,25 @@
+#sideNav {
+  .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+.navigation-side{
+  float: left;
+  margin-left: -3rem;
+  position: fixed;
+  padding-right: 20px;
+  height: 100%;
+  top: 0;
+}
+.horizontal_line{
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 1024px;
+}
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+}

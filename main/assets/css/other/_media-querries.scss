@@ -1,0 +1,21 @@
+@media (max-width: 991px){
+	.background-right-side{
+		display: none;
+	}
+}
+@media (max-width: 375px) {
+	.desc{
+		height: 500px;
+	}
+	.desc .jobs-divider-mobile{
+		top: 500px;
+	}
+}
+@media (max-width: 320px) {
+	.desc{
+		height: 550px;
+	}
+	.desc .jobs-divider-mobile{
+		top: 550px;
+	}
+}

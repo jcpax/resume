@@ -1,0 +1,125 @@
+#design{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden; 
+}
+.background-right-side{
+	background-color: $teal;
+	z-index: -1000;
+	height: 100vh;
+	position: fixed;
+	float: left;
+	width: 30%;
+}
+.design-container{
+	.section-design{
+		width: 100%;
+		height: auto;
+		display: inline-block;
+		position: relative;
+	.right-design{
+		width: 30%;
+		background-color: #00ac99;
+		display: inline-block;
+		float: left;
+		position: absolute;
+		height: 100%;
+		.desc-text{
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 15%;
+			h1, h2, h3, p{
+				color: $white;
+			}
+		}
+	}
+	.left-design{
+		width: 70%;
+		height: auto;
+		float: right;
+		text-align: center;
+		display: inline-block;
+		.design-img{
+			width: 80%;
+			max-width: 600px;
+			margin: 0 auto;
+			margin-bottom: 25px;
+		}
+	}
+	.design-div-mobile{display: none;
+	}
+}
+.design-divider{
+	height: 50px;
+	display: inline-block; 
+	margin-top: -16px;
+	margin-bottom: -16px;
+		.left-design{
+			width: 30%;
+			float: left;
+			background-color: $teal;
+			.design-divider-white{
+				filter: brightness(0) invert(1);
+				width: 100%;
+				}
+			}
+		.right-design{
+			width: 70%;
+			float: right;
+			.design-divider-teal{
+				width: 100%;
+				}
+			}
+	}
+}
+.design-top{
+	font-size:40px;
+	color: $teal;
+	position: fixed;
+	right:0;
+	bottom:   0;
+	z-index: 1000;
+}
+#top {
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	opacity: 0.5;
+	display:none;
+	cursor: pointer;
+}
+#top:hover {
+	opacity: 1;
+}
+@media only screen and (max-width: 992px) {
+	.design-container{
+		.section-design{
+			.right-design{
+				width: 100%;
+				height: auto;
+				position:relative;
+			.desc-text{
+				padding-top: 5%;
+				padding-bottom: 10%;
+			}
+		}
+		.left-design{
+			width: 100%;
+			position:relative;
+			margin-top: 50px;
+		}
+		.design-div-mobile{
+			display: inline-block;
+			height: 20px;
+			width: 100%;
+			margin-top: -10px;
+			}
+		}
+		.design-divider{
+			display: none;
+		}
+	}
+}
